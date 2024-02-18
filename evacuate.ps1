@@ -1,5 +1,5 @@
 # Connect to vCenter Server
-Connect-VIServer -Server Your-vCenter-Server -User Your-Username -Password Your-Password
+Connect-VIServer -Server "Your-vCenter-Server" -User Your-Username -Password Your-Password
 
 # Specify the ESXi host to evacuate
 $esxiHost = "ESXi-Host-Name"
